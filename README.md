@@ -66,7 +66,7 @@
 
 Conduit provides an agentic procurement hub connecting businesses with over 13,000 merchants without fees. The platform monitors supply lines, ranks alternate suppliers, and enables agents to place orders within set limits, automating restocking and procurement workflows. It offers tools like MCP connectors, pipes, and a yard for managing vendor relationships, aiming to reduce risk and streamline B2B purchasing.
 
-**Areas:** Procurement · B2B · Automation · Marketplace · AI
+**Areas:** Procurement · B2B · Automation · Marketplace · Artificial Intelligence
 
 ## Conduit on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for Conduit is published on APIs.io rather than in this repo
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aiconduit-app-mcp.yml](https://apis.io/servers/aiconduit-app/aiconduit-app-mcp-yml/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -90,7 +96,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aiconduit App Domain Security](https://apis.io/security/aiconduit-app/aiconduit-app-domain-security/)
+- [Conduit Domain Security](https://apis.io/security/aiconduit-app/aiconduit-app-domain-security/)
 
 ## Where to find this API
 
@@ -105,7 +111,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aiconduit-app/](https://apis.io/providers/aiconduit-app/).
+**Kin Score 22.4** — emerging · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 11.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 27.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | platform (partial credit) |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aiconduit-app/](https://apis.io/providers/aiconduit-app/).
 
 ## How this profile is made
 
